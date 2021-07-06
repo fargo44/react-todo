@@ -10,11 +10,13 @@ function TodoForm({ addTodo }) {
     setValue("");
   };
 
+  
   return (
     <form onSubmit={handleSubmit}>
       <input
         type="text"
         className="input"
+        placeholder="what do you need to do"
         value={value}
         onChange={e => setValue(e.target.value)}
       />

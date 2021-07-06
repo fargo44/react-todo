@@ -4,7 +4,7 @@ import TodoForm from "./components/Form"
 import "./App.css";
 import firebase from "./firestore";
 
-class App extends React.Component {
+class TestApp extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -73,4 +73,4 @@ class App extends React.Component {
 
 }
 
-export default App
+export default TestApp
